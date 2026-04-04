@@ -17,5 +17,4 @@ export interface PixKey {
 
 export const pixKeys: PixKey[] = [
   { name: 'Pedro', key: 'pedroaccastilho@gmail.com', keyType: 'E-mail', city: 'Mogi Mirim' },
-  { name: 'Maju',  key: '+5519982726419', keyType: 'Telefone', city: 'Mogi Mirim' },
 ];
