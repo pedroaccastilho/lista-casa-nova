@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f0eb"/>
+
+  <!-- Wall -->
+  <rect x="0" y="0" width="600" height="220" fill="#e8ddd4"/>
+
+  <!-- Floor -->
+  <rect x="0" y="220" width="600" height="180" fill="#c9b99a"/>
+
+  <!-- Baseboard -->
+  <rect x="0" y="215" width="600" height="10" fill="#b8a88a"/>
+
+  <!-- Mattress body -->
+  <rect x="70" y="110" width="460" height="140" rx="12" fill="#ffffff"/>
+  <!-- Mattress side shadow -->
+  <rect x="70" y="230" width="460" height="20" rx="6" fill="#e0d8d0"/>
+
+  <!-- Mattress border stitching -->
+  <rect x="70" y="110" width="460" height="140" rx="12" fill="none" stroke="#d0c8c0" stroke-width="4"/>
+  <rect x="82" y="122" width="436" height="116" rx="8" fill="none" stroke="#e8e0d8" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Quilting grid horizontal -->
+  <line x1="82" y1="155" x2="518" y2="155" stroke="#e0d8d0" stroke-width="1.5"/>
+  <line x1="82" y1="180" x2="518" y2="180" stroke="#e0d8d0" stroke-width="1.5"/>
+  <line x1="82" y1="205" x2="518" y2="205" stroke="#e0d8d0" stroke-width="1.5"/>
+
+  <!-- Quilting grid vertical -->
+  <line x1="175" y1="122" x2="175" y2="238" stroke="#e0d8d0" stroke-width="1.5"/>
+  <line x1="268" y1="122" x2="268" y2="238" stroke="#e0d8d0" stroke-width="1.5"/>
+  <line x1="361" y1="122" x2="361" y2="238" stroke="#e0d8d0" stroke-width="1.5"/>
+  <line x1="454" y1="122" x2="454" y2="238" stroke="#e0d8d0" stroke-width="1.5"/>
+
+  <!-- Quilting tufts (buttons) -->
+  <circle cx="175" cy="155" r="4" fill="#d0c8c0"/>
+  <circle cx="268" cy="155" r="4" fill="#d0c8c0"/>
+  <circle cx="361" cy="155" r="4" fill="#d0c8c0"/>
+  <circle cx="454" cy="155" r="4" fill="#d0c8c0"/>
+  <circle cx="175" cy="205" r="4" fill="#d0c8c0"/>
+  <circle cx="268" cy="205" r="4" fill="#d0c8c0"/>
+  <circle cx="361" cy="205" r="4" fill="#d0c8c0"/>
+  <circle cx="454" cy="205" r="4" fill="#d0c8c0"/>
+
+  <!-- Handle left -->
+  <path d="M 110 165 Q 110 148 125 148 Q 140 148 140 165" fill="none" stroke="#c0b8b0" stroke-width="3" stroke-linecap="round"/>
+  <!-- Handle right -->
+  <path d="M 460 165 Q 460 148 475 148 Q 490 148 490 165" fill="none" stroke="#c0b8b0" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Label -->
+  <rect x="175" y="305" width="250" height="40" rx="6" fill="rgba(90,74,58,0.15)"/>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a4a3a" text-anchor="middle">Colchão Casal</text>
+</svg>

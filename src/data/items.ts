@@ -122,6 +122,14 @@ export const categories: Category[] = [
     emoji: '🛏️',
     items: [
       {
+        id: 16,
+        name: 'Colchão casal',
+        description: 'Colchão casal — disponível presencialmente na loja Fabrispuma',
+        estimatedPrice: 'R$ 4.100,00',
+        priority: 'alta',
+        image: '/lista-casa-nova/images/products/colchao.svg',
+      },
+      {
         id: 15,
         name: 'Cama box casal com baú',
         description: 'Cama box casal com baú — disponível presencialmente na loja Fabrispuma',
