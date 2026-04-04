@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f0eb"/>
+
+  <!-- Wall -->
+  <rect x="0" y="0" width="600" height="220" fill="#e8ddd4"/>
+
+  <!-- Floor -->
+  <rect x="0" y="220" width="600" height="180" fill="#c9b99a"/>
+
+  <!-- Baseboard -->
+  <rect x="0" y="215" width="600" height="10" fill="#b8a88a"/>
+
+  <!-- Box base (baú) -->
+  <rect x="80" y="200" width="440" height="120" rx="6" fill="#5a4a3a"/>
+  <!-- Box lid handle strip -->
+  <rect x="80" y="200" width="440" height="12" rx="4" fill="#6b5a48"/>
+  <!-- Box texture lines -->
+  <line x1="80" y1="240" x2="520" y2="240" stroke="#4a3a2a" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="520" y2="280" stroke="#4a3a2a" stroke-width="1.5"/>
+
+  <!-- Legs -->
+  <rect x="100" y="315" width="20" height="15" rx="2" fill="#3a2a1a"/>
+  <rect x="480" y="315" width="20" height="15" rx="2" fill="#3a2a1a"/>
+
+  <!-- Mattress -->
+  <rect x="70" y="130" width="460" height="80" rx="8" fill="#ffffff"/>
+  <!-- Mattress border -->
+  <rect x="70" y="130" width="460" height="80" rx="8" fill="none" stroke="#e0d8d0" stroke-width="3"/>
+  <!-- Mattress quilting lines -->
+  <line x1="70" y1="170" x2="530" y2="170" stroke="#e8e0d8" stroke-width="1.5"/>
+  <line x1="220" y1="130" x2="220" y2="210" stroke="#e8e0d8" stroke-width="1.5"/>
+  <line x1="380" y1="130" x2="380" y2="210" stroke="#e8e0d8" stroke-width="1.5"/>
+
+  <!-- Pillow left -->
+  <rect x="90" y="138" width="160" height="60" rx="10" fill="#f0eae4"/>
+  <rect x="90" y="138" width="160" height="60" rx="10" fill="none" stroke="#ddd5cc" stroke-width="2"/>
+
+  <!-- Pillow right -->
+  <rect x="350" y="138" width="160" height="60" rx="10" fill="#f0eae4"/>
+  <rect x="350" y="138" width="160" height="60" rx="10" fill="none" stroke="#ddd5cc" stroke-width="2"/>
+
+  <!-- Headboard -->
+  <rect x="60" y="60" width="480" height="90" rx="10" fill="#6b5a48"/>
+  <!-- Headboard detail -->
+  <rect x="80" y="75" width="440" height="60" rx="8" fill="#7a6655"/>
+  <!-- Headboard buttons -->
+  <circle cx="180" cy="105" r="5" fill="#5a4a3a"/>
+  <circle cx="300" cy="105" r="5" fill="#5a4a3a"/>
+  <circle cx="420" cy="105" r="5" fill="#5a4a3a"/>
+
+  <!-- Label -->
+  <rect x="170" y="345" width="260" height="40" rx="6" fill="rgba(90,74,58,0.15)"/>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5a4a3a" text-anchor="middle">Cama Box Casal com Baú</text>
+</svg>
