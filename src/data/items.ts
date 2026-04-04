@@ -113,15 +113,7 @@ export const categories: Category[] = [
         link: 'https://www.amazon.com.br/dp/B0CFFQBY89',
         image: '/lista-casa-nova/images/products/jogo-pratos.jpg',
       },
-      {
-        id: 14,
-        name: 'Xícara de café',
-        description: 'Xícara de café com parede dupla de vidro, conjunto 6 peças',
-        estimatedPrice: 'R$ 38,63',
-        priority: 'baixa',
-        link: 'https://br.shein.com/AUXOMBelifou6PcsVidroCanecaDeCaf%C3%A9DuplaIsolamentoT%C3%A9rmico80ML-p-87054489-cat-11568.html?share_from=null&url_from=GM71080732241&cdn_rsite=ak&ref=www&rep=dir&ret=br',
-        image: '/lista-casa-nova/images/products/xicara.jpg',
-      },
+
     ],
   },
   {
