@@ -7,12 +7,6 @@ interface Props {
   item: Item;
 }
 
-const priorityLabel: Record<string, string> = {
-  alta: 'Alta',
-  média: 'Média',
-  baixa: 'Baixa',
-};
-
 function buildWhatsAppUrl(contact: { name: string; number: string }, itemName: string): string {
   const msg = encodeURIComponent(
     `Oi ${contact.name}! Vi na lista da casa nova e quero contribuir com: *${itemName}*`
@@ -55,11 +49,6 @@ export default function ItemCard({ item }: Props) {
       <div className={styles.cardBody}>
         <div className={styles.topRow}>
           <h3 className={styles.name}>{item.name}</h3>
-          {item.priority && (
-            <span className={`${styles.priority} ${styles[item.priority.replace('é', 'e')]}`}>
-              {priorityLabel[item.priority]}
-            </span>
-          )}
         </div>
         {item.description && (
           <p className={styles.description}>{item.description}</p>
