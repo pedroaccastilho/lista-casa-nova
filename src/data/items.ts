@@ -30,14 +30,7 @@ export const categories: Category[] = [
         link: 'https://www.brastemp.com.br/geladeira-brastemp-duplex-415l-inox/p?idsku=326199071&gad_source=1&gad_campaignid=21164263367&gbraid=0AAAAADJ0Bqo0dRXqbT-VRG0j2Or5e-rxq&gclid=Cj0KCQjwp7jOBhDGARIsABe7C4ehKrW5-19YVk48dRZdFSLm60yvlEx5rsYJVr-pvnXZXHJX7hE0ivQaAghAEALw_wcB',
         image: '/lista-casa-nova/images/products/geladeira.jpg',
       },
-      {
-        id: 2,
-        name: 'Máquina de lavar louça',
-        description: 'Brastemp 10 serviços Inox, ciclo pesado',
-        estimatedPrice: 'R$ 3.100,00',
-        link: 'https://www.brastemp.com.br/lava-loucas-10-servicos-inox-ciclo-pesado-blf10br/p?idsku=326020167&gad_source=1&gad_campaignid=21164263367&gbraid=0AAAAADJ0Bqo0dRXqbT-VRG0j2Or5e-rxq&gclid=Cj0KCQjwp7jOBhDGARIsABe7C4fMZRaizkCe8PNJu77d6vVIi8bEP9oNdfmQWrEjEi5KAvgOQFjpZUoaAkkzEALw_wcB',
-        image: '/lista-casa-nova/images/products/lava-loucas.jpg',
-      },
+
       {
         id: 3,
         name: 'Ar condicionado',
