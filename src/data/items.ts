@@ -101,7 +101,22 @@ export const categories: Category[] = [
         link: 'https://www.amazon.com.br/dp/B0CFFQBY89',
         image: '/lista-casa-nova/images/products/jogo-pratos.jpg',
       },
-
+      {
+        id: 18,
+        name: 'Kit moedores de temperos',
+        description: 'Kit 2 moedores de madeira ajustáveis, sal grosso e pimenta (Marrom)',
+        estimatedPrice: 'R$ 52,99',
+        link: 'https://shopee.com.br/product/1496472939/22494291260',
+        image: '/lista-casa-nova/images/products/moedores.jpg',
+      },
+      {
+        id: 17,
+        name: 'Kit para Vinho',
+        description: 'Oster Inspire, inox — abridor elétrico, aerador, corta-lacre e mais',
+        estimatedPrice: 'R$ 195,40',
+        link: 'https://www.amazon.com.br/para-Vinho-Inspire-Oster-FPSTBW8055-011/dp/B01N9QDKS2',
+        image: '/lista-casa-nova/images/products/kit-vinho.jpg',
+      },
     ],
   },
   {
