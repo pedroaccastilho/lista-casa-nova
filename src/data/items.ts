@@ -102,6 +102,14 @@ export const categories: Category[] = [
         image: '/lista-casa-nova/images/products/jogo-pratos.jpg',
       },
       {
+        id: 20,
+        name: 'Frigideira Antiaderente',
+        description: 'Electrolux Inox 24cm, preta',
+        estimatedPrice: 'R$ 156,70',
+        link: 'https://m.magazineluiza.com.br/frigideira-antiaderente-electrolux-inox-41044561-preta-24cm/p/240963000/ud/udfg/',
+        image: '/lista-casa-nova/images/products/frigideira.jpg',
+      },
+      {
         id: 19,
         name: 'Tigela Fruteira Saladeira',
         description: 'Cerâmica Scalla 24cm Bege — Tigela Funda',
