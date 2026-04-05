@@ -102,6 +102,14 @@ export const categories: Category[] = [
         image: '/lista-casa-nova/images/products/jogo-pratos.jpg',
       },
       {
+        id: 19,
+        name: 'Tigela Fruteira Saladeira',
+        description: 'Cerâmica Scalla 24cm Bege — Tigela Funda',
+        estimatedPrice: 'R$ 54,99',
+        link: 'https://shopee.com.br/product/231279954/58250307041',
+        image: '/lista-casa-nova/images/products/tigela-fruteira.jpg',
+      },
+      {
         id: 18,
         name: 'Kit moedores de temperos',
         description: 'Kit 2 moedores de madeira ajustáveis, sal grosso e pimenta (Marrom)',
