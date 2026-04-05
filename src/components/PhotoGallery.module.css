@@ -5,7 +5,7 @@
 
 .sectionHeader {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .eyebrow {
@@ -32,39 +32,39 @@
   font-weight: 300;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
+/* ── Carousel ── */
+.carousel {
+  position: relative;
+  max-width: 780px;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  background-color: var(--color-text);
+  aspect-ratio: 4 / 3;
+  cursor: zoom-in;
 }
 
-.photoCard {
-  position: relative;
+.slide {
+  display: block;
+  width: 100%;
+  height: 100%;
   border: none;
   padding: 0;
-  cursor: pointer;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  background-color: var(--color-border);
-  box-shadow: var(--shadow-sm);
-  transition: transform var(--transition), box-shadow var(--transition);
+  background: none;
+  cursor: zoom-in;
 }
 
-.photoCard:hover {
-  transform: scale(1.02);
-  box-shadow: var(--shadow-md);
-}
-
-.photoCard img {
+.slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform var(--transition);
+  display: block;
+  transition: transform 0.4s ease;
 }
 
-.photoCard:hover img {
-  transform: scale(1.06);
+.carousel:hover .slide img {
+  transform: scale(1.02);
 }
 
 .caption {
@@ -72,11 +72,63 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(61, 43, 31, 0.75), transparent);
+  background: linear-gradient(to top, rgba(61, 43, 31, 0.8), transparent);
   color: #fff;
   font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 400;
-  padding: 1.5rem 0.75rem 0.6rem;
+  font-size: 0.9rem;
+  padding: 2rem 1.25rem 0.85rem;
   text-align: left;
+  pointer-events: none;
+}
+
+/* ── Arrows ── */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: background var(--transition), transform var(--transition);
+  z-index: 2;
+}
+
+.arrow:hover {
+  background: #fff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.arrowLeft  { left: 0.75rem; }
+.arrowRight { right: 0.75rem; }
+
+/* ── Dots ── */
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.1rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-border);
+  cursor: pointer;
+  padding: 0;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.dotActive {
+  background-color: var(--color-primary);
+  transform: scale(1.3);
 }
