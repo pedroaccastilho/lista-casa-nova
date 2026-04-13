@@ -23,15 +23,6 @@ export const categories: Category[] = [
     emoji: '🔌',
     items: [
       {
-        id: 1,
-        name: 'Geladeira',
-        description: 'Brastemp Duplex 415L Inox',
-        estimatedPrice: 'R$ 3.120,00',
-        link: 'https://www.brastemp.com.br/geladeira-brastemp-duplex-415l-inox/p?idsku=326199071&gad_source=1&gad_campaignid=21164263367&gbraid=0AAAAADJ0Bqo0dRXqbT-VRG0j2Or5e-rxq&gclid=Cj0KCQjwp7jOBhDGARIsABe7C4ehKrW5-19YVk48dRZdFSLm60yvlEx5rsYJVr-pvnXZXHJX7hE0ivQaAghAEALw_wcB',
-        image: '/lista-casa-nova/images/products/geladeira.jpg',
-      },
-
-      {
         id: 3,
         name: 'Ar condicionado',
         description: 'Daikin EcoSwing Smart Gold R-32, 12.000 BTU, Quente/Frio 220V',
@@ -63,14 +54,6 @@ export const categories: Category[] = [
         link: 'https://www.mercadolivre.com.br/ferro-vaporizador-portatil-e-dobravel-3-em-1-black-decker-bdv3000/p/MLB20621100',
         image: '/lista-casa-nova/images/products/ferro-vaporizador.jpg',
       },
-      {
-        id: 7,
-        name: 'Mixer',
-        description: 'Mixer portátil',
-        estimatedPrice: 'R$ 267,00',
-        link: 'https://www.amazon.com.br/gp/product/B0DRPPT5DK/ref=ox_sc_act_title_2?smid=A1ZZFT5FULY4LN&psc=1',
-        image: '/lista-casa-nova/images/products/mixer.jpg',
-      },
     ],
   },
   {
@@ -78,22 +61,6 @@ export const categories: Category[] = [
     name: 'Cozinha',
     emoji: '🍳',
     items: [
-      {
-        id: 8,
-        name: 'Faqueiro',
-        description: 'Tramontina Pacific, 36 peças, aço inox',
-        estimatedPrice: 'R$ 355,00',
-        link: 'https://www.mercadolivre.com.br/faqueiro-com-36-pecas-em-aco-inox-e-alto-brilho-pacific-tramontina/p/MLB32551244',
-        image: '/lista-casa-nova/images/products/faqueiro.jpg',
-      },
-      {
-        id: 9,
-        name: 'Jogo de pratos',
-        description: 'Aparelho de jantar completo',
-        estimatedPrice: 'R$ 434,00',
-        link: 'https://www.amazon.com.br/dp/B0CFFQBY89',
-        image: '/lista-casa-nova/images/products/jogo-pratos.jpg',
-      },
       {
         id: 20,
         name: 'Frigideira Antiaderente',
@@ -178,14 +145,6 @@ export const categories: Category[] = [
     name: 'Banheiro',
     emoji: '🚿',
     items: [
-      {
-        id: 14,
-        name: 'Jogo de toalhas',
-        description: 'Buddemeyer 4 peças, algodão egípcio, banho e rosto',
-        estimatedPrice: 'R$ 363,00',
-        link: 'https://shopee.com.br/Kit-Jogo-De-Toalhas-Buddemeyer-4-Pe%C3%A7as-Algod%C3%A3o-Egipcio-Banho-e-Rosto-Fio-Penteado-i.709666406.23591531580',
-        image: '/lista-casa-nova/images/products/toalhas.jpg',
-      }
     ],
   },
 ];
