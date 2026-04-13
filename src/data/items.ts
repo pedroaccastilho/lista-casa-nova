@@ -140,11 +140,4 @@ export const categories: Category[] = [
       },
     ],
   },
-  {
-    id: 'banheiro',
-    name: 'Banheiro',
-    emoji: '🚿',
-    items: [
-    ],
-  },
 ];
