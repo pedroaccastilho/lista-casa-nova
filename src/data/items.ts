@@ -100,13 +100,6 @@ export const categories: Category[] = [
         image: '/lista-casa-nova/images/products/colchao.svg',
       },
       {
-        id: 15,
-        name: 'Cama box casal com baú',
-        description: 'Cama box casal com baú — disponível presencialmente na loja Fabrispuma',
-        estimatedPrice: 'R$ 1.400,00',
-        image: '/lista-casa-nova/images/products/cama-box.svg',
-      },
-      {
         id: 10,
         name: 'Jogo de lençol — Opção A',
         description: 'Kit cama casal',
