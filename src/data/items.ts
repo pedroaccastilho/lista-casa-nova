@@ -46,14 +46,6 @@ export const categories: Category[] = [
         link: 'https://www.mercadolivre.com.br/kit-makita-dcl180z-aspirador-bateria-e-carregador-dc18wc-cor-azul-turquesa/p/MLB44768795',
         image: '/lista-casa-nova/images/products/aspirador.jpg',
       },
-      {
-        id: 6,
-        name: 'Ferro vaporizador',
-        description: 'Black+Decker BDV3000, portátil e dobrável 3 em 1',
-        estimatedPrice: 'R$ 300,00',
-        link: 'https://www.mercadolivre.com.br/ferro-vaporizador-portatil-e-dobravel-3-em-1-black-decker-bdv3000/p/MLB20621100',
-        image: '/lista-casa-nova/images/products/ferro-vaporizador.jpg',
-      },
     ],
   },
   {
